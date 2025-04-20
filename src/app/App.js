@@ -68,7 +68,9 @@ import LoadTop from '../theme_components/Common/ScrollTop/LoadTop'
 //Live Pages
 import Home from '../pages/home'
 import GPSTool from '../pages/tools/gps_nosie_remover'
-
+import TermsAndCondition from '../pages/compliance/terms-and-condition'
+import PrivacyPolicy from '../pages/compliance/privacy-policy'
+import PaymentPolicy from '../pages/compliance/payment-policy'
 
 const App = () => {
     return (
@@ -79,6 +81,10 @@ const App = () => {
                     <Route path="/" exact component={Home} />
                     <Route path="/redirect" component={Home} />
                     <Route path="/tools/gps-noise-remover" component={GPSTool} />
+
+                    <Route path="/terms-and-conditions" component={TermsAndCondition} />
+                    <Route path="/privacy-policy" component={PrivacyPolicy} />
+                    <Route path="/payment-policy" component={PaymentPolicy} />
 
                     <Route path="/theme/home" component={ThemeHome} />
                     <Route path="/theme/home-2" component={ThemeHomeTwo} />

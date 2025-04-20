@@ -72,6 +72,20 @@ const Footer = (props) => {
                                     </div>
                                 </li>
                             </ul>
+                            <h3 className="widget-title">Legal</h3>
+                            <div className="footer-links">
+                                <ul className="site-map">
+                                    <li>
+                                        <Link to="/terms-and-conditions">Terms and Conditions</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/privacy-policy">Privacy Policy</Link>
+                                    </li>
+                                    <li>
+                                        <Link to="/payment-policy">Payment Policy</Link>
+                                    </li>
+                                </ul>
+                            </div>
                         </div>
                         <div className="col-lg-3 col-md-12 col-sm-12">
                             <h3 className="widget-title">Stay Updated</h3>
